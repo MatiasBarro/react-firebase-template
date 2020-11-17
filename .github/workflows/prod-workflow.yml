@@ -21,7 +21,7 @@ jobs:
 
       # Node install
       - name: Install dependencies
-        run: npm install --only=prod
+        run: npm install
       
       # Build
       - name: Build App
